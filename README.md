@@ -25,7 +25,7 @@ Please note that these scripts can be refactored to fit your own needs. For exam
    cd ../
    ```
 
-3. ***Runthe scripts***
+3. ***Run the scripts***
 
    ```bash
    ./git-remote-fetch
