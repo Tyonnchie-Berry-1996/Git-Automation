@@ -48,6 +48,7 @@ Please note that these scripts can be refactored to fit your own needs. For exam
 
    ```bash
    chmod +x setup.sh the-great-clone.sh
+   mv the-great-clone.sh /home/$USER/src 
    ./setup.sh
    cd ../
    ./the-great-clone.sh
