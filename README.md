@@ -47,7 +47,8 @@ Please note that these scripts can be refactored to fit your own needs. For exam
 2. ***Setup the repo***
 
    ```bash
-   chmod +x setup.sh
+   chmod +x setup.sh the-great-clone.sh
+   ./the-great-clone.sh
    ./setup.sh
    cd ../
    ```
