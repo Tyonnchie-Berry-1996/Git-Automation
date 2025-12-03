@@ -10,7 +10,7 @@ All scripts in this repo are executable by prefixing them with <code>./</code>
 Please note that these scripts can be refactored to fit your own needs. For example on my fedora virtual machine I have my repos located in <code>/mnt/repos/src</code> so refactor all of the scripts and rebuild it for your personal needs if you have a similar setup.
 
 ## If you already have some repos setup follow these steps
-1.***Clone the repo***
+1. ***Clone the repo***
 
    ```bash
    cd /home/$USER/src
@@ -18,19 +18,20 @@ Please note that these scripts can be refactored to fit your own needs. For exam
    cd Git-Automation/
    ```
 2. ***Setup the repo***
-   
+
    ```bash
    chmod +x setup.sh
    ./setup.sh
    cd ../
    ```
-   
-3. ***Run the script***
-   
+
+3. ***Runthe scripts***
+
    ```bash
    ./git-remote-fetch
    ./git-pull.sh
    ```
+   
 
 
 
