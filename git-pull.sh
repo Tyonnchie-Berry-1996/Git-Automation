@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Change directory to the directory containing your git repos
-cd /home/src
+cd /home/$USER/src
 
 for repo in */; do
     # Print the name of the repo
     echo "Found repository: $repo"
-  # Navigate into the repo
+    # Navigate into the repo
     cd "$repo"
 
     # Check if it's a git repository
