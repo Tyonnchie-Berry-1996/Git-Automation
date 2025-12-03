@@ -68,6 +68,14 @@ Please note that these scripts can be refactored to fit your own needs. For exam
    ./git-remote-fetch
    ./git-pull.sh
    ```
+        >Or run the scripts solo
+
+   ```bash
+   ./git-remote-fetch
+   ```
+   ```bash
+   ./git-pull.sh
+   ```
 
 
    
