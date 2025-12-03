@@ -37,6 +37,27 @@ Please note that these scripts can be refactored to fit your own needs. For exam
 
 >Dry Run
 
+1. ***Clone the repo***
+
+   ```bash
+   cd /home/$USER/src
+   git clone https://github.com/Tyonnchie-Berry-1996/Git-Automation.git
+   cd Git-Automation/
+   ```
+2. ***Setup the repo***
+
+   ```bash
+   chmod +x setup.sh
+   ./setup.sh
+   cd ../
+   ```
+
+3. ***Run the scripts***
+
+   ```bash
+   ./git-remote-fetch
+   ./git-pull.sh
+   ```
 
 
    
