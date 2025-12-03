@@ -4,7 +4,7 @@ set -e
 
 echo "Setting Up An Easier Life For You"
 
-cd /home/src/RepoAutomation
+cd /home/$USER/src
 
 mv git-pull.sh /home/$USER/src
 
