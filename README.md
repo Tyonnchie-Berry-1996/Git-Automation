@@ -1,7 +1,7 @@
 # Git-Automation
 Lightweight Bash-based Git automation. Keeps your repositories up to date with minimal effort. 
 
-This is especially useful in more “enterprise-style” setups where you’re working with 5+ repos that are constantly being updated. Instead of manually updating each repo these scripts handle everything from a single **src** directory. All you really need to do is **cache your Git credentials** once, and let the scripts do the rest.
+This is especially useful in more “enterprise-style” setups where you’re working with 5+ repos that are constantly being updated. Instead of manually updating each repo these scripts handle everything from a single **src** directory. All you really need to do is **cache your Git credentials** and let the scripts do the rest.
 
 By default, these scripts assume your repos are live in /home/$USER/src
 
@@ -32,7 +32,30 @@ Please note that these scripts can be refactored to fit your own needs. For exam
    ./git-pull.sh
    ```
    
+>Sharing is caring
 
+## If you don't have repos or don't see the need to have 5+ repos constantly updating follow these steps below 
+1. ***Clone the repo***
+
+   ```bash
+   cd /home/$USER/src
+   git clone https://github.com/Tyonnchie-Berry-1996/Git-Automation.git
+   cd Git-Automation/
+   ```
+2. ***Setup the repo***
+
+   ```bash
+   chmod +x setup.sh
+   ./setup.sh
+   cd ../
+   ```
+
+3. ***Run the scripts***
+
+   ```bash
+   ./git-remote-fetch
+   ./git-pull.sh
+   ```
 
 
    
