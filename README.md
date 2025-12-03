@@ -48,9 +48,9 @@ Please note that these scripts can be refactored to fit your own needs. For exam
 
    ```bash
    chmod +x setup.sh the-great-clone.sh
-   ./the-great-clone.sh
    ./setup.sh
    cd ../
+   ./the-great-clone.sh
    ```
 
 3. ***Run the scripts***
