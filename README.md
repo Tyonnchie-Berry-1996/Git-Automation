@@ -32,9 +32,10 @@ Please note that these scripts can be refactored to fit your own needs. For exam
    ./git-pull.sh
    ```
    
->Sharing is caring
 
-## If you don't have repos or don't see the need to have 5+ repos constantly updating everyday follow these steps below 
+## If you don't see the need to have 5+ repos constantly updating everyday follow these steps below 
+
+>Dry Run
 
 
 
