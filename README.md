@@ -34,28 +34,8 @@ Please note that these scripts can be refactored to fit your own needs. For exam
    
 >Sharing is caring
 
-## If you don't have repos or don't see the need to have 5+ repos constantly updating follow these steps below 
-1. ***Clone the repo***
+## If you don't have repos or don't see the need to have 5+ repos constantly updating everyday follow these steps below 
 
-   ```bash
-   cd /home/$USER/src
-   git clone https://github.com/Tyonnchie-Berry-1996/Git-Automation.git
-   cd Git-Automation/
-   ```
-2. ***Setup the repo***
-
-   ```bash
-   chmod +x setup.sh
-   ./setup.sh
-   cd ../
-   ```
-
-3. ***Run the scripts***
-
-   ```bash
-   ./git-remote-fetch
-   ./git-pull.sh
-   ```
 
 
    
