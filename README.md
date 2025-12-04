@@ -3,7 +3,7 @@ Lightweight Bash-based Git automation. Keeps your repositories up to date with m
 
 This is especially useful in more “enterprise-style” setups where you’re working with 5+ repos that are constantly being updated. Instead of manually updating each repo these scripts handle everything from a single **src** directory. All you really need to do is **cache your Git credentials** and let the scripts do the rest.
 
-By default, these scripts assume your repos are live in /home/$USER/src
+By default, these scripts assume your repos are live in <code>/home/$USER/src</code>
 
 All scripts in this repo are executable by prefixing them with <code>./</code>
 
